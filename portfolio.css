@@ -1,16 +1,18 @@
-a[href="./portfolio.html"]{color: rgb(0, 157, 255);}
-nav > ul > li > a{color: black;}
-a[href="./index.html"]{color: black;}
-li > h2{color: black;}
-li > h3{color: grey;}
-ul > li > a[href="mail to:info@devstudio.com"]{color: rgb(0, 157, 255);}
-ul > li > a{color: grey;}
-li > address > a{color: grey;}
+a[href="./portfolio.html"]{color: #2196F3;}
+nav > ul > li > a{color: #212121;}
+a[href="./index.html"]{color: #212121;}
+li > h2{color: #212121;}
+li > h3{color: #757575;}
+ul > li > a[href="mail to:info@devstudio.com"]{color:#2196F3;}
+ul > li > a{color: #757575;}
+li > address > a{color: #757575;
+    ;}
 address > a{ color: rgb(255, 255, 255);}
-footer{background-color: rgb(46, 50, 77);}
-main > section > ul > li:first-child > button{background-color: rgb(0, 157, 255);
-color: white;
-border-color: rgb(0, 157, 255);}
-main > section > ul > li > button{background-color: rgb(210, 199, 199);
-    color: rgb(0, 0, 0);
-    border-color: rgb(210, 199, 199);}
+footer{background-color: #2F303A;
+    ;}
+main > section > ul > li:first-child > button{background-color: #2196F3;
+color: #FFFFFF;
+border-color: #2196F3;}
+main > section > ul > li > button{background-color: #F5F4FA;
+    color: #212121;
+    border-color: #F5F4FA;}

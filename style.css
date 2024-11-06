@@ -1,16 +1,19 @@
 a[href="./index.html"]{color: rgb(0, 157, 255);}
-ul > li > a[href="mail to:info@devstudio.com"]{color: rgb(0, 157, 255);}
-a[href="./portfolio.html"]{color: rgb(0, 0, 0);}
-nav > ul > li > a{color: black;}
-ul > li > a{color: grey;}
+ul > li > a[href="mail to:info@devstudio.com"]{color: #2196F3;}
+a[href="./portfolio.html"]{color: #212121;}
+nav > ul > li > a{color: #212121;
+    ;}
+ul > li > a{color: #757575;}
 main > section > h1{color: white;}
-main > section > button{background-color: rgb(0, 157, 255);
-border-color: rgb(0, 157, 255);
+main > section > button{background-color:#2196F3;
+border-color: #2196F3;
 color: white;}
-li > p{color: grey;}
-li > address > a{color: grey;}
+li > p{color: #757575;
+    ;}
+li > address > a{color: #757575;}
 main > section:first-child
- {background-color: rgb(46, 50, 77);}
- li > address > a{color: grey;}
-address > a{ color: rgb(255, 255, 255);}
-footer{background-color: rgb(46, 50, 77);}
+ {background-color: #2F303A;}
+ li > address > a{color: #757575;}
+address > a{ color:#FFFFFF;
+    ;} 
+footer{background-color: #2F303A;}
