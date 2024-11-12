@@ -1,13 +1,13 @@
-a[href="./index.html"]{color: rgb(0, 157, 255);}
+a[href="./index.html"]{color: #2196F3;}
 ul > li > a[href="mail to:info@devstudio.com"]{color: #2196F3;}
 a[href="./portfolio.html"]{color: #212121;}
 nav > ul > li > a{color: #212121;
     ;}
 ul > li > a{color: #757575;}
-main > section > h1{color: white;}
+main > section > h1{color: #FFFFFF;}
 main > section > button{background-color:#2196F3;
 border-color: #2196F3;
-color: white;}
+color: #FFFFFF;}
 li > p{color: #757575;
     ;}
 li > address > a{color: #757575;}
@@ -17,3 +17,11 @@ main > section:first-child
 address > a{ color:#FFFFFF;
     ;} 
 footer{background-color: #2F303A;}
+:root{
+    --background-color:#2196F3;
+    --background-color:#2F303A;
+    --color:#FFFFFF;
+    --color:#757575;
+    --color:#2196F3;
+    --border-color:#2196F3;
+}

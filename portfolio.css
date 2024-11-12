@@ -7,12 +7,23 @@ ul > li > a[href="mail to:info@devstudio.com"]{color:#2196F3;}
 ul > li > a{color: #757575;}
 li > address > a{color: #757575;
     ;}
-address > a{ color: rgb(255, 255, 255);}
+address > a{ color: #FFFFFF;}
 footer{background-color: #2F303A;
     ;}
-main > section > ul > li:first-child > button{background-color: #2196F3;
+main > section > ul > li:first-child > button{background-color:#2196F3;
 color: #FFFFFF;
 border-color: #2196F3;}
 main > section > ul > li > button{background-color: #F5F4FA;
     color: #212121;
     border-color: #F5F4FA;}
+    :root{
+        --background-color:#F5F4FA;
+        --background-color:#2196F3;
+        --background-color:#2F303A;
+        --border-color:#F5F4FA;
+        --border-color:#2196F3;
+        --color:#FFFFFF;
+        --color:#2196F3;
+        --color:#212121;
+        --color:#757575;
+    }
