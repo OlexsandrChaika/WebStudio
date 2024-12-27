@@ -28,8 +28,8 @@ ul > li > address > a:hover
 {color: var(--sleep-color);}
 ul > li > address > a
 {color: var(--d-color);}
-a[href="/Web Studio/html/index.html"]{color: var(--u-color);}
-a[href="/Web Studio/html/index.html"] > span{color: var(--sleep-color);}
+a[href="./index.html"]{color: var(--u-color);}
+a[href="./index.html"] > span{color: var(--sleep-color);}
     :root{
         --main-color:#F5F4FA;
         --ban-color:#2F303A;

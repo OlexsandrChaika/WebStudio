@@ -25,8 +25,8 @@ address > a{ color:var(--muken-color);
     ;} 
 footer
 {background-color: var(--background-color);}
- a[href="/Web Studio/html/index.html"]{color: var(--clash-color);}
- a[href="/Web Studio/html/index.html"] > span{color: var(--finger-color);}
+ a[href="./index.html"]{color: var(--clash-color);}
+ a[href="./index.html"] > span{color: var(--finger-color);}
 :root{
     --background-color:#2F303A;
     --muken-color:#FFFFFF;
