@@ -1,22 +1,32 @@
-a[href="./index.html"]{color: var(--finger-color);}
-ul > li > a[href="mail to:info@devstudio.com"]{color: var(--finger-color);}
-a[href="./portfolio.html"]{color: var(--clash-color);}
-nav > ul > li > a{color: var(--clash-color);
-    ;}
-ul > li > a{color: var(--domain-color);}
-main > section > h1{color: var(--muken-color);}
-main > section > button{background-color:var(--finger-color);
-border-color: var(--finger-color);
+header > nav > ul > li > a:hover
+{color:var(--finger-color);}
+header > nav > ul > li > a
+{color:var(--clash-color);}
+ul > li > address > a:hover
+{color: var(--finger-color);}
+ul > li > address > a
+{color: var(--domain-color);}
+nav > ul > li > a
+{color: var(--clash-color);}
+main > section > h1
+{color: var(--muken-color);}
+main > section > button
+{background-color:var(--finger-color);
+border: none;
 color: var(--muken-color);}
-li > p{color: var(--domain-color);
-    ;}
-li > address > a{color: var(--domain-color);}
+li > p
+{color: var(--domain-color);;}
+li > address > a
+{color: var(--domain-color);}
 main > section:first-child
  {background-color: var(--background-color);}
  li > address > a{color: var(--domain-color);}
 address > a{ color:var(--muken-color);
     ;} 
-footer{background-color: var(--background-color);}
+footer
+{background-color: var(--background-color);}
+ a[href="/Web Studio/html/index.html"]{color: var(--clash-color);}
+ a[href="/Web Studio/html/index.html"] > span{color: var(--finger-color);}
 :root{
     --background-color:#2F303A;
     --muken-color:#FFFFFF;
