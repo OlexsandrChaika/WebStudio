@@ -38,3 +38,37 @@ a[href="./index.html"] > span{color: var(--sleep-color);}
         --u-color:#212121;
         --d-color:#757575;
     }
+    body{
+        font-family: Roboto;
+        font-family: Raleway;
+    }
+    /* header */
+.hat-pages-list-pages_variants-link{
+    line-height: 1,142857142857143;
+}
+.hat-communicate_with_us-way-link{
+    line-height: 1,142857142857143;
+}
+.hat-title{
+    line-height: 1,384615384615385;
+}
+/* footer */
+.basement-title{
+    line-height: 1,384615384615385;
+}
+.basement-communicate_with_us{
+    line-height: 1,714285714285714;
+}
+.basement-our_place{
+    line-height: 1,714285714285714;
+}
+/* main */
+.product-list_variants-choose-options{
+    line-height: 1,625;
+}
+.product-list-offer-name{
+    line-height: 2;
+}
+.product-list-offer-type{
+    line-height: 1,875;
+}

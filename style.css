@@ -34,3 +34,52 @@ footer
     --finger-color:#2196F3;
     --clash-color:#212121;
 }
+body{
+    font-family: Roboto, serif;
+    font-family: Raleway, serif;
+}
+/* header */
+.hat-pages-list-pages_variants-link{
+    line-height: 1,142857142857143;
+}
+.hat-communicate_with_us-way-link{
+    line-height: 1,142857142857143;
+}
+.hat-title{
+    line-height: 1,384615384615385;
+}
+/* footer */
+.basement-title{
+    line-height: 1,384615384615385;
+}
+.basement-communicate_with_us{
+    line-height: 1,714285714285714;
+}
+.basement-our_place{
+    line-height: 1,714285714285714;
+}
+/* main */
+.middle-order-buy{
+    line-height: 1,875;
+}
+.middle-what_do_we_do-title{
+    line-height: 1,166666666666667;
+}
+.middle-team-title{
+    line-height: 1,166666666666667;
+}
+.middle-order-title{
+    line-height: 1,363636363636364;
+}
+.middle-reasons-list-member-text{
+    line-height: 1,714285714285714;
+}
+.middle-reasons-list-member-title{
+    line-height: 1,142857142857143;
+}
+.middle-team-list-member-profession{
+    line-height: 1,1875;
+}
+.middle-team-list-member-name{
+    line-height: 1,1875;
+}
