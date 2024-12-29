@@ -1,0 +1,38 @@
+body {
+	line-height: 1;
+    display: block;
+}
+ ul {
+	list-style: none;
+}
+p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+a{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+button{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
