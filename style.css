@@ -83,3 +83,10 @@ body{
 .middle-team-list-member-name{
     line-height: 1,1875;
 }
+.container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}

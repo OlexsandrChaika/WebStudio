@@ -72,3 +72,10 @@ a[href="./index.html"] > span{color: var(--sleep-color);}
 .product-list-offer-type{
     line-height: 1,875;
 }
+.container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
