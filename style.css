@@ -39,10 +39,10 @@ body{
     font-family: Raleway, serif;
 }
 /* header */
-.hat-pages-list-pages_variants-link{
+.hat-pages-list-variants-link{
     line-height: 1,142857142857143;
 }
-.hat-communicate_with_us-way-link{
+.hat-communication-way-link{
     line-height: 1,142857142857143;
 }
 .hat-title{
@@ -52,10 +52,10 @@ body{
 .basement-title{
     line-height: 1,384615384615385;
 }
-.basement-communicate_with_us{
+.basement-communication{
     line-height: 1,714285714285714;
 }
-.basement-our_place{
+.basement-place{
     line-height: 1,714285714285714;
 }
 /* main */
