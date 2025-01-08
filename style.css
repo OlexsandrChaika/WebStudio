@@ -1,87 +1,96 @@
-header > nav > ul > li > a:hover
-{color:var(--finger-color);}
-header > nav > ul > li > a
-{color:var(--clash-color);}
-ul > li > address > a:hover
-{color: var(--finger-color);}
-ul > li > address > a
-{color: var(--domain-color);}
-nav > ul > li > a
-{color: var(--clash-color);}
-main > section > h1
-{color: var(--muken-color);}
-main > section > button
-{background-color:var(--finger-color);
-border: none;
-color: var(--muken-color);}
-li > p
-{color: var(--domain-color);;}
-li > address > a
-{color: var(--domain-color);}
-main > section:first-child
- {background-color: var(--background-color);}
- li > address > a{color: var(--domain-color);}
-address > a{ color:var(--muken-color);
-    ;} 
-footer
-{background-color: var(--background-color);}
- a[href="./index.html"]{color: var(--clash-color);}
- a[href="./index.html"] > span{color: var(--finger-color);}
-:root{
-    --background-color:#2F303A;
-    --muken-color:#FFFFFF;
-    --domain-color:#757575;
-    --finger-color:#2196F3;
-    --clash-color:#212121;
-}
-body{
-    font-family: Roboto, serif;
-    font-family: Raleway, serif;
-}
-/* header */
 .hat-pages-list-variants-link{
+    color: var(--u-color);
     line-height: 1,142857142857143;
 }
-.hat-communication-way-link{
-    line-height: 1,142857142857143;
+.hat-pages-list-variants-link:hover{
+    color: var(--sleep-color);
 }
 .hat-title{
+    color: var(--u-color);
     line-height: 1,384615384615385;
 }
-/* footer */
-.basement-title{
+.hat-title-half{
+    color: var(--sleep-color);
     line-height: 1,384615384615385;
+}
+.hat-communication-way-link{
+    color: var(--d-color);
+    line-height: 1,142857142857143;
+}
+.hat-communication-way-link:hover{
+    color: var(--sleep-color);
+}
+.basement-title{
+    color: var(--u-color);
+    line-height: 1,384615384615385;
+}
+.basement-title-half{
+    color: var(--sleep-color);
+    line-height: 1,384615384615385;
+}
+.basement{
+    background-color: var(--ban-color);
+}
+.basement-communication-way-link{
+    color: var(--d-color);
+}
+.basement-communication-way-link:hover{
+    color: var(--sleep-color);
+}
+.basement-place{
+    color: var(--on-color);
+    line-height: 1,714285714285714;
+}
+.middle-order-title{
+    color: var(--on-color);
+    line-height: 1,363636363636364;
+}
+.middle-order-buy{
+    background-color: var(--sleep-color);
+    color: var(--on-color);
+    line-height: 1,875;
+}
+.middle-order{
+    background-color: var(--ban-color);
+}
+.middle-reasons-list-member-text{
+    color: var(--d-color);
+    line-height: 1,714285714285714;
+}
+.middle-reasons-list-member-title{
+    color: var(--u-color);
+    line-height: 1,142857142857143;
+}
+.middle-working-title{
+    color: var(--u-color);
+    line-height: 1,166666666666667;
+}
+.middle-team-title{
+    color: var(--u-color);
+    line-height: 1,166666666666667;
+}
+.middle-team-list-member-name{
+    color:  var(--u-color);
+    line-height: 1,1875;
+}
+.middle-team-list-member-profession{
+    color: var(--d-color);
+    line-height: 1,1875;
 }
 .basement-communication{
     line-height: 1,714285714285714;
 }
-.basement-place{
-    line-height: 1,714285714285714;
+:root{
+    --main-color:#F5F4FA;
+    --ban-color:#2F303A;
+    --on-color:#FFFFFF;
+    --sleep-color:#2196F3;
+    --u-color:#212121;
+    --d-color:#757575;
 }
-/* main */
-.middle-order-buy{
-    line-height: 1,875;
-}
-.middle-what_do_we_do-title{
-    line-height: 1,166666666666667;
-}
-.middle-team-title{
-    line-height: 1,166666666666667;
-}
-.middle-order-title{
-    line-height: 1,363636363636364;
-}
-.middle-reasons-list-member-text{
-    line-height: 1,714285714285714;
-}
-.middle-reasons-list-member-title{
-    line-height: 1,142857142857143;
-}
-.middle-team-list-member-profession{
-    line-height: 1,1875;
-}
-.middle-team-list-member-name{
-    line-height: 1,1875;
+body{
+    font-family: "Roboto";
+    font-family: "Raleway";
 }
 .container{
     width: 1170px;
