@@ -1,38 +1,52 @@
-body {
-	line-height: 1;
-    display: block;
+.product-options,
+.order-buy{
+    text-decoration: none;
+    border: none;
+    padding: 0px;
 }
- ul {
-	list-style: none;
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
-p {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-a{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+.hat-link,
+.hat-contact,
+.basement-link,
+.basement-place,
+.hat-title,
+.basement-title{
     text-decoration: none;
 }
-button{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+.order-title{
+    margin: 0px;
+    text-decoration: none;
 }
-img{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
+.reasons-title{
+    margin: 0px;
+    text-decoration: none;
+}
+.reasons-text{
+    margin: 0px;
+    text-decoration: none;
+}
+.working-title{
+    margin: 0px;
+    text-decoration: none;
+}
+.team-title{
+    margin: 0px;
+    text-decoration: none;
+}
+.team-profession{
+    margin: 0px;
+    text-decoration: none;
+}
+.team-name{
+    margin: 0px;
+    text-decoration: none;
+}
+.product-name,
+.product-type{
+    margin: 0px;
+    text-decoration: none;
 }

@@ -11,70 +11,75 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
-  <body class="container">
+  <body>
     <header class="hat">
-      <a class="hat-title" href="./index.html"><span class="hat-title-half">Web</span>Studio</a>
+      <div class="container">
+      <a class="hat-title" href="./index.html"><span class="hat-half">Web</span>Studio</a>
       <nav class="hat-pages">
-        <ul class="hat-pages-list">
-        <li class="hat-pages-list-variants">
-          <a class="hat-pages-list-variants-link" href="./index.html">Студія</a>
+        <ul class="hat-list">
+        <li class="hat-item">
+          <a class="hat-link" href="./index.html">Студія</a>
         </li>
-        <li class="hat-pages-list-variants">
-          <a class="hat-pages-list-variants-link" href="./portfolio.html">Портфоліо</a>
+        <li class="hat-item">
+          <a class="hat-link" href="./portfolio.html">Портфоліо</a>
         </li>
-        <li class="hat-pages-list-variants">
-          <a class="hat-pages-list-variants-link" href="">Контакти</a>
+        <li class="hat-item">
+          <a class="hat-link" href="">Контакти</a>
         </li>
       </ul>
     </nav>
       <!-- Способи зв'язку з офісом на рахунок замовлення -->
-    <address>
-      <ul class="hat-communication">
-        <li class="hat-communication-way">
-            <a class="hat-communication-way-link" href="mail to:info@devstudio.com">info@devstudio.com</a>
+      <ul class="hat-items">
+        <li class="hat-elem">
+            <a class="hat-contact" href="mail to:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li class="hat-communication-way">
-          <a class="hat-communication-way-link" href="tel:+380961111111">38 096 111 11 11</a>
+        <li class="hat-elem">
+          <a class="hat-contact" href="tel:+380961111111">38 096 111 11 11</a>
       </li>
       </ul>
-    </address>
+    </div>
     </header>
-    <main class="middle">
-      <section class="middle-order">
-        <h1 class="middle-order-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-        <button class="middle-order-buy">Замовити Послугу</button>
+    <main>
+      <section class="order">
+        <div class="container">
+        <h1 class="order-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+        <button class="order-buy">Замовити Послугу</button>
+      </div>
       </section>
       <!-- Плюси послуги -->
-      <section class="middle-reasons">
-        <ul class="middle-reasons-list">
-        <li class="middle-reasons-list-member">
-          <h3 class="middle-reasons-list-member-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-          <p class="middle-reasons-list-member-text">
+      <section class="reasons">
+        <div class="container">
+        <ul class="reasons-list">
+        <li class="reasons-item">
+          <h3 class="reasons-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+          <p class="reasons-text">
            Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
           </p>
         </li>
-        <li class="middle-reasons-list-member">
-          <h3 class="middle-reasons-list-member-title">ПУНКТУАЛЬНІСТЬ</h3>
-          <p class="middle-reasons-list-member-text">
+        <li class="reasons-item">
+          <h3 class="reasons-title">ПУНКТУАЛЬНІСТЬ</h3>
+          <p class="reasons-text">
             Завдання організації, особливо рамки і місце навчання кадрів тягне у себе
           </p>
         </li>
-        <li class="middle-reasons-list-member">
-          <h3 class="middle-reasons-list-member-title">ПЛАНУВАННЯ</h3>
-          <p class="middle-reasons-list-member-text">
+        <li class="reasons-item">
+          <h3 class="reasons-title">ПЛАНУВАННЯ</h3>
+          <p class="reasons-text">
            Так само консультація з широким активом значною мірою зумовлює.
           </p>
         </li>
-        <li class="middle-reasons-list-member">
-          <h3 class="middle-reasons-list-member-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-          <p class="middle-reasons-list-member-text">
+        <li class="reasons-item">
+          <h3 class="reasons-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+          <p class="reasons-text">
             Значимість цих проблем настільки очевидна, що реалізація планових завдань
           </p>
         </li>
       </ul>
+    </div>
     </section> 
-      <section class="middle-working">
-        <h2 class="middle-working-title">Чим ми займаємося</h2>
+      <section class="working">
+        <div class="container">
+        <h2 class="working-title">Чим ми займаємося</h2>
         <ul class="middle-working-list">
           <li class="middle-working-list-example">
             <img class="middle-working-list-example-image" src="./img.png" width="370" alt="Планшет" />
@@ -86,46 +91,51 @@
             <img class="middle-working-list-example-image" src="./img(2).png" width="370" alt="Планшет з палітрою кольорів" />
           </li>
         </ul>
+      </div>
       </section>
-        <section class="middle-team">
-          <h2 class="middle-team-title">Наша команда</h2>
-          <ul class="middle-team-list">
-            <li class="middle-team-list-member">
-              <img class="middle-team-list-member-photo" src="./img(3).png" width="270" alt="Ігор Дем'яненко" />
-              <h3 class="middle-team-list-member-name">Ігор Дем'яненко</h3>
-              <p class="middle-team-list-member-profession">Product Designer</p>
+        <section class="team">
+          <div class="container">
+          <h2 class="team-title">Наша команда</h2>
+          <ul class="team-list">
+            <li class="team-item">
+              <img class="team-photo" src="./img(3).png" width="270" alt="Ігор Дем'яненко" />
+              <h3 class="team-name">Ігор Дем'яненко</h3>
+              <p class="team-profession">Product Designer</p>
             </li>
-            <li class="middle-team-list-member">
-              <img class="middle-team-list-member-photo" src="./img(4).png" width="270" alt="Ольга Репіна" />
-              <h3 class="middle-team-list-member-name">Ольга Репіна</h3>
-              <p class="middle-team-list-member-profession">Frontend Developer</p>
+            <li class="team-item">
+              <img class="team-photo" src="./img(4).png" width="270" alt="Ольга Репіна" />
+              <h3 class="team-name">Ольга Репіна</h3>
+              <p class="team-profession">Frontend Developer</p>
             </li>
-            <li class="middle-team-list-member">
-              <img class="middle-team-list-member-photo" src="./img(5).png" width="270" alt="Микола Тарасов" />
-              <h3 class="middle-team-list-member-name">Микола Тарасов</h3>
-              <p class="middle-team-list-member-profession">Marketing</p>
+            <li class="team-item">
+              <img class="team-photo" src="./img(5).png" width="270" alt="Микола Тарасов" />
+              <h3 class="team-name">Микола Тарасов</h3>
+              <p class="team-profession">Marketing</p>
             </li>
-            <li class="middle-team-list-member">
-              <img class="middle-team-list-member-photo" src="./img(6).png" width="270" alt="Михайло Єрмаков" />
-              <h3 class="middle-team-list-member-name">Михайло Єрмаков</h3>
-              <p class="middle-team-list-member-profession">UI Designer</p>
+            <li class="team-item">
+              <img class="team-photo" src="./img(6).png" width="270" alt="Михайло Єрмаков" />
+              <h3 class="team-name">Михайло Єрмаков</h3>
+              <p class="team-profession">UI Designer</p>
             </li>
           </ul>
+        </div>
         </section>
     </main>
     <footer class="basement">
-      <a class="basement-title" href="./index.html"><span class="basement-title-half">Web</span>Studio</a>
+      <div class="container">
+      <a class="basement-title" href="./index.html"><span class="basement-half">Web</span>Studio</a>
       <address>
         <a class="basement-place" href="">м. Київ, пр-т Лесі Українки, 26</a>
       <ul class="basement-communication">
-        <li class="basement-communication-way">
-            <a class="basement-communication-way-link" href="mail to:info@devstudio.com">info@devstudio.com</a>
+        <li class="basement-item">
+            <a class="basement-link" href="mail to:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li class="basement-communication-way">
-          <a class="basement-communication-way-link" href="tel:+380961111111">38 096 111 11 11</a>
+        <li class="basement-item">
+          <a class="basement-link" href="tel:+380961111111">38 096 111 11 11</a>
       </li>
       </ul>
     </address>
+  </div>
     </footer>
   </body>
 </html>
