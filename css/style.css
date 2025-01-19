@@ -7,6 +7,7 @@
     --u-color:#212121;
     --d-color:#757575;
     --logo-color:#000;
+    --gforce-color:#EEE;
 }
 body{
     font-family: "Roboto";
@@ -17,13 +18,77 @@ body{
     padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
+    outline: 1px solid red;
 }
+/* header */
+.hat{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.hat > .container{
+    display: flex;
+    align-items: center;
+}
+.hat-title{
+    color: var(--logo-color);
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+    margin-right: 93px;
+    }
+    .hat-list{
+        display: flex;
+        gap: 50px;
+    }
+    .hat-half{
+        color: var(--sleep-color);
+        font-family: "Raleway";
+    }
+    
+    .hat-link{
+    color: var(--u-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+    }
+    
+    .hat-link:hover,
+    .hat-link:focus{
+        color: var(--sleep-color);
+    }
+    .hat-items{
+        display: flex;
+        gap: 50px;
+        margin-left: auto;
+    }
+    
 
+    .hat-contact{
+    color: var(--d-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+    }
+    
+    .hat-contact:hover,
+    .hat-contact:focus{
+        color: var(--sleep-color);
+    }
+    
 /* main */
 .order{
     background-color: var(--ban-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
-
+.order > .container{
+    display: flex;
+    
+}
 .order-title{
 color: var(--on-color);
 text-align: center;
@@ -46,6 +111,11 @@ background: #2196F3;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+.reasons{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .reasons-title{
 color: var(--u-color);
 font-size: 14px;
@@ -63,6 +133,10 @@ line-height: 1.71;
 letter-spacing: 0.42px;
 }
 
+.working{
+    padding-bottom: 94px;
+}
+
 .working-title{
 color: var(--u-color);
 text-align: center;
@@ -70,6 +144,11 @@ font-size: 36px;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
+}
+
+.team{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team-title{
@@ -80,7 +159,9 @@ font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
 }
-
+.team-list{
+    display: flex;
+}
 .team-name{
 color: var(--u-color);
 text-align: center;
@@ -101,7 +182,7 @@ letter-spacing: 0.48px;
 
 /* footer */
 .basement-title{
-color: var(--logo-color);
+color: var(--on-color);
 font-family: "Raleway";
 font-size: 26px;
 font-style: normal;
@@ -131,45 +212,7 @@ letter-spacing: 0.42px;
 }
 .basement{
     background-color: var(--ban-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-/* header */
-.hat-title{
-color: var(--logo-color);
-font-family: "Raleway";
-font-size: 26px;
-font-weight: 700;
-line-height: 1.38;
-letter-spacing: 0.78px;
-}
-
-.hat-half{
-    color: var(--sleep-color);
-    font-family: "Raleway";
-}
-
-.hat-link{
-color: var(--u-color);
-font-size: 14px;
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.28px;
-}
-
-.hat-link:hover,
-.hat-link:focus{
-    color: var(--sleep-color);
-}
-
-.hat-contact{
-color: var(--d-color);
-font-size: 14px;
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.28px;
-}
-
-.hat-contact:hover,
-.hat-contact:focus{
-    color: var(--sleep-color);
-}
