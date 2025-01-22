@@ -1,52 +1,21 @@
-.product-options,
-.order-buy{
-    text-decoration: none;
-    border: none;
-    padding: 0px;
-}
 ul{
     list-style: none;
     padding: 0px;
     margin: 0px;
 }
-.hat-link,
-.hat-contact,
-.basement-link,
-.basement-place,
-.hat-title,
-.basement-title{
+a{
     text-decoration: none;
 }
-.order-title{
-    margin: 0px;
-    text-decoration: none;
+h1,h2,h3,h4,p{
+    margin: 0;
 }
-.reasons-title{
-    margin: 0px;
-    text-decoration: none;
+img{
+    display: block;
 }
-.reasons-text{
-    margin: 0px;
-    text-decoration: none;
+button{
+    border: none;
+    cursor:grab;
 }
-.working-title{
-    margin: 0px;
-    text-decoration: none;
-}
-.team-title{
-    margin: 0px;
-    text-decoration: none;
-}
-.team-profession{
-    margin: 0px;
-    text-decoration: none;
-}
-.team-name{
-    margin: 0px;
-    text-decoration: none;
-}
-.product-name,
-.product-type{
-    margin: 0px;
-    text-decoration: none;
+address{
+    font-style: normal;
 }
