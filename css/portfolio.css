@@ -3,6 +3,14 @@
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+.product-list{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
 .product-options{
 color: var(--u-color);
 text-align: center;
@@ -35,7 +43,23 @@ font-weight: 400;
 line-height: 1.87;
 letter-spacing: 0.48px;
 }
+
+.product-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-box{
+    margin-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 24px;
+   padding-right: 24px;
+}
+
 .product-elem{
-border: 1px solid var(--gforce-color);
-background: var(--on-color);
+    margin-bottom: 30px;
+    border: 1px solid var(--gforce-color);
+    background: var(--on-color);
+    display: inline-block;
 }
