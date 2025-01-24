@@ -20,7 +20,9 @@ line-height: 1.62;
 letter-spacing: 0.48px;
 border-radius: 4px;
 background: var(--main-color);
+padding: 6px 22px;
 }
+
 .product-options:hover,
 .product-options:focus{
 color: var(--on-color);
@@ -29,6 +31,7 @@ background-color: var(--sleep-color);
 /* shadow-middle */
 box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
+
 .product-name{
 color: var(--u-color);
 font-size: 18px;
@@ -36,6 +39,7 @@ font-weight: 700;
 line-height: 2;
 letter-spacing: 1.08px;
 }
+
 .product-type{
 color: var(--d-color);
 font-size: 16px;
