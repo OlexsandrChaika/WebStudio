@@ -30,6 +30,8 @@ border-radius: 4px;
 background-color: var(--sleep-color);
 /* shadow-middle */
 box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+outline: 0px solid transparent;
+border: none;
 }
 
 .product-name{
@@ -51,19 +53,16 @@ letter-spacing: 0.48px;
 .product-items{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 .product-box{
-    margin-top: 20px;
-   padding-bottom: 20px;
-   padding-left: 24px;
-   padding-right: 24px;
+    padding: 20px 24px;
 }
 
 .product-elem{
-    margin-bottom: 30px;
     border: 1px solid var(--gforce-color);
     background: var(--on-color);
     display: inline-block;
+    flex-basis: calc((100% - 60px) / 3);
 }

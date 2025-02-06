@@ -55,10 +55,15 @@ body{
     letter-spacing: 0.28px;
     }
     
-    .hat-link:hover,
-    .hat-link:focus{
-        color: var(--sleep-color);
-    }
+.hat-link:hover,
+.hat-link:focus{
+    color: var(--sleep-color);
+}
+
+.active{
+    color: var(--sleep-color);
+}
+
     .hat-items{
         display: flex;
         gap: 50px;
