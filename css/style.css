@@ -86,7 +86,7 @@ body{
     
 /* main */
 .order{
-    background-color: var(--ban-color);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40)), url(../img/bg.webp);
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
@@ -127,6 +127,31 @@ padding: 10px 32px;
 .reasons-list{
     display: flex;
     gap: 30px;
+}
+
+.reasons-item::before{
+    content: "";
+    display: block;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background: #F5F4FA;
+    background-image: url(../img/antenna.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.reasons-item:nth-child(2):before{
+    background-image: url(../img/clock.png);
+}
+
+.reasons-item:nth-child(3):before{
+    background-image: url(../img/diagram.png);
+}
+
+.reasons-item:nth-child(4):before{
+    background-image: url(../img/astronaut.png);
 }
 
 .reasons-title{
@@ -186,10 +211,16 @@ margin-bottom: 50px;
     gap: 30px;
 }
 
+.team-item{
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .team-box{
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: var(--on-color);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-name{
